@@ -1,0 +1,143 @@
+[
+  {
+    "image": "image1.jpg",
+    "has_arabic": false,
+    "has_english": true,
+    "approved_name": false,
+    "design_compliant": false,
+    "no_obstruction": false,
+    "well_lit": false,
+    "rules": {
+      "has_arabic": {
+        "requirement": "Arabic Name Display: The shop name must be prominently displayed in Arabic.",
+        "compliant": false,
+        "issue": "No Arabic text is visible on the signboard."
+      },
+      "has_english": {
+        "requirement": "English translation is permitted but must be smaller than the Arabic text.",
+        "compliant": true,
+        "issue": "English text ('Pharmacy') is present, but Arabic text is missing for size comparison."
+      },
+      "approved_name": {
+        "requirement": "Only the name approved by the Licensing Committee should be used.",
+        "compliant": false,
+        "issue": "Cannot verify without access to approved name records."
+      },
+      "design_compliant": {
+        "requirement": "The signboard must adhere to technical conditions for uniformity.",
+        "compliant": false,
+        "issue": "Insufficient visual data to assess design specifications."
+      },
+      "no_obstruction": {
+        "requirement": "The signboard should not obstruct architectural elements or windows.",
+        "compliant": false,
+        "issue": "Image does not show surrounding context."
+      },
+      "well_lit": {
+        "requirement": "Signboard must be well-lit, especially for 24/7 shops.",
+        "compliant": false,
+        "issue": "Lighting conditions cannot be determined from the image."
+      },
+      "arabic_size": {
+        "requirement": "Arabic text must be larger than the English translation.",
+        "compliant": false,
+        "issue": "Arabic text is absent; rule cannot be followed."
+      }
+    },
+    "overall_compliance": "Non-Compliant"
+  },
+  {
+    "image": "image2.jpg",
+    "has_arabic": true,
+    "has_english": true,
+    "approved_name": false,
+    "design_compliant": false,
+    "no_obstruction": false,
+    "well_lit": false,
+    "rules": {
+      "has_arabic": {
+        "requirement": "Arabic Name Display: The shop name must be prominently displayed in Arabic.",
+        "compliant": true,
+        "issue": "Arabic text ('صيدالبة نبو ميرر ش.دم.') is present."
+      },
+      "has_english": {
+        "requirement": "English translation must be smaller than the Arabic text.",
+        "compliant": false,
+        "issue": "English text ('New Mamzar Pharmacy L.L.C') appears larger than the Arabic text, violating size hierarchy."
+      },
+      "approved_name": {
+        "requirement": "Only the name approved by the Licensing Committee should be used.",
+        "compliant": false,
+        "issue": "Cannot verify without access to approved name records."
+      },
+      "design_compliant": {
+        "requirement": "Signboard must adhere to technical conditions for uniformity.",
+        "compliant": false,
+        "issue": "Insufficient visual data to assess design specifications (e.g., dimensions, colors)."
+      },
+      "no_obstruction": {
+        "requirement": "Signboard should not obstruct architectural elements or windows.",
+        "compliant": false,
+        "issue": "Image does not show surrounding context."
+      },
+      "well_lit": {
+        "requirement": "Signboard must be well-lit, especially for 24/7 shops.",
+        "compliant": false,
+        "issue": "Lighting conditions cannot be determined from the image."
+      },
+      "arabic_size": {
+        "requirement": "Arabic text must be larger than the English translation.",
+        "compliant": false,
+        "issue": "Arabic text is smaller than the English text."
+      }
+    },
+    "overall_compliance": "Partially Compliant"
+  },
+  {
+    "image": "image3.jpg",
+    "has_arabic": true,
+    "has_english": true,
+    "approved_name": false,
+    "design_compliant": false,
+    "no_obstruction": false,
+    "well_lit": false,
+    "rules": {
+      "has_arabic": {
+        "requirement": "Arabic Name Display: The shop name must be prominently displayed in Arabic.",
+        "compliant": true,
+        "issue": "Arabic text ('صيدليلة أفيسن الجديدة') is present."
+      },
+      "has_english": {
+        "requirement": "English translation must be smaller than the Arabic text.",
+        "compliant": false,
+        "issue": "English text ('New AVICen PHARMACY') is larger than the Arabic text, violating size hierarchy."
+      },
+      "approved_name": {
+        "requirement": "Only the name approved by the Licensing Committee should be used.",
+        "compliant": false,
+        "issue": "Cannot verify without access to approved name records."
+      },
+      "design_compliant": {
+        "requirement": "Signboard must adhere to technical conditions for uniformity.",
+        "compliant": false,
+        "issue": "Insufficient data to assess design (e.g., font, colors, layout)."
+      },
+      "no_obstruction": {
+        "requirement": "Signboard should not obstruct architectural elements or windows.",
+        "compliant": false,
+        "issue": "Image lacks surrounding context."
+      },
+      "well_lit": {
+        "requirement": "Signboard must be well-lit, especially for 24/7 shops.",
+        "compliant": false,
+        "issue": "Lighting cannot be determined from the image."
+      },
+      "arabic_size": {
+        "requirement": "Arabic text must be larger than the English translation.",
+        "compliant": false,
+        "issue": "Arabic text is smaller than the English text."
+      }
+    },
+    "overall_compliance": "Partially Compliant"
+  }
+]
